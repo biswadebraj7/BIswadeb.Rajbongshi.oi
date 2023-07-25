@@ -1,0 +1,195 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto&display=swap');
+*{
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    clear: both;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+.close {
+    float: right;
+   margin: 20px;
+}
+.fa-circle-xmark{
+    font-size: 64px;
+    color: #202020;
+}
+.close a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1224px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.title{
+    width: 100%;
+    padding: 80px 0px;
+    text-align: center;
+    display: block;
+    justify-content: center;
+}
+.title p{
+    text-align: center;
+    padding-bottom: 5px;
+    color: #51a5c4;
+    font-size: 16px;
+    font-weight: bold;
+}
+.title h1{
+    font-size: 32px;
+    color: #111111;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  
+
+}
+.space{
+   max-width: 30%;
+   width: 100px;
+   margin: auto;
+    height: 5px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+ 
+    background-color: #51a5c4;
+  
+}
+
+
+.eduction{
+    padding: 45px 20px;
+}
+.exper{
+    width: 200px;
+    font-weight: 600;
+    border: 2px solid #CCCCCC;
+    padding: 10px;
+    text-align: left;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    text-transform: capitalize;
+
+}
+.experien{
+    width: 350px;
+    font-weight: 600;
+    border: 2px solid #CCCCCC;
+    padding: 10px;
+    text-align: left;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    text-transform: capitalize;
+
+}
+.progress{
+    margin: 15px 0px;
+    color: #111111;
+}
+.inform-ed{
+    position: relative;
+    margin-bottom: 15px;
+ 
+}
+.year{
+    font-size: 14px;
+    text-align: left;
+    color: #111111;
+
+}
+.resume-title{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    color: #111111;
+}
+.inform-ed a{
+    text-decoration: none;
+    color:#51a5c4;
+}
+article{
+    padding-left: 30px;
+}
+.initute{
+    font-size: 16px;
+    padding-left: 5px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    color:#51a5c4;
+}
+.result{
+    padding: 0;
+    margin: 0;
+    line-height: 9px;
+
+}
+.result-item{
+    list-style: none;
+}
+.result-link{
+    text-align: left;
+    font-size: 14px;
+    padding-top: 5px;
+    color: #111111;
+}
+
+.strongs{
+    position: relative;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 50%;
+    background-color: #51a5c4;
+    font-weight: 600;
+    color: white;
+    margin-left: -50px;
+    z-index: 19;
+   
+  
+}
+.timelines{
+    position: relative;
+
+    
+    
+}
+.timelines::before{
+    content: '';
+    width: 2px;
+    height: 77%;
+    background-color: #51a5c4;
+    position: absolute;
+    left: 0;
+   
+}
+.timeline{
+    position: relative;
+
+    
+    
+}
+.timeline::before{
+    content: '';
+    width: 2px;
+    height: 89%;
+    background-color: #51a5c4;
+    position: absolute;
+    left: 0;
+    
+}
+.progressbar{
+    padding: 0;
+    margin: 0;
+}

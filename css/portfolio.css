@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto&display=swap');
+*{
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    clear: both;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1224px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.close {
+    float: right;
+   margin: 20px;
+}
+.fa-circle-xmark{
+    font-size: 64px;
+    color: #ffffff;
+}
+.close a{
+    text-decoration: none;
+}
+.title{
+    width: 100%;
+    padding: 40px 0px;
+    text-align: center;
+    display: block;
+    justify-content: center;
+}
+.title p{
+    text-align: center;
+    padding-bottom: 5px;
+    color: #51a5c4;
+    font-size: 16px;
+    font-weight: bold;
+}
+.title h1{
+    font-size: 32px;
+    color: #111111;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+.space{
+   max-width: 30%;
+   width: 100px;
+   margin: auto;
+    height: 5px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+ 
+    background-color: #51a5c4;
+  
+}
+.portfolio-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/c.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #111111;
+    
+}
+.contain{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+    margin:  0px auto;
+}
+.btn{
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 10px;
+    background-color: #51a5c4;
+    border: none;
+    margin-bottom: 20px;
+}
+.btn:first-child{
+    margin-left:0 ;
+ 
+   
+}
+
+.btn.active{
+    background-color: #ffffff;
+    color: #111111;
+}
+.item{
+    margin-top: 20px;
+}
+.photo {
+    width: 400px;
+    height: auto;
+    margin: auto;
+
+}
+.photo img{
+    width: 98%;
+    height: 250px;
+
+}
